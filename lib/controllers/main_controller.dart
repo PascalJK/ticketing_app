@@ -20,6 +20,7 @@ class MainController extends BaseController {
   void addNewTicket(TicketModel ticket) {
     _tickets.add(ticket);
     Get.back();
+    sortListBy(selectedSortOptionIndex, isNewItem: true);
     showSnackBar('Ticket: ${ticket.id} added successfully');
     update();
   }
@@ -31,9 +32,9 @@ class MainController extends BaseController {
     update();
   }
 
-  void sortListBy(int? filter) {
+  void sortListBy(int? filter, {bool isNewItem = false}) {
     if (filter == null) return;
-    if (filter == selectedSortOptionIndex) return;
+    if (filter == selectedSortOptionIndex && !isNewItem) return;
     selectedSortOptionIndex = filter;
     _tickets.sort((a, b) {
       switch (sortOption[selectedSortOptionIndex]) {
