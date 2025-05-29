@@ -20,7 +20,7 @@ class HomePage extends GetView<MainController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('TicketApp')),
+      appBar: AppBar(title: Text('Client Ticket App')),
       floatingActionButton: FloatingActionButton(onPressed: () => showAddTicketBottomSheet(context), child: Icon(Icons.add)),
       body: GetBuilder<MainController>(
         builder: (c) {

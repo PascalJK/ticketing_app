@@ -16,6 +16,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(title: 'TicketsApp', theme: AppThemes.appTheme, home: const HomePage());
+    return GetMaterialApp(title: 'Client Ticket App', theme: AppThemes.appTheme, home: const HomePage());
   }
 }

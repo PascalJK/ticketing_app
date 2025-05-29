@@ -1,4 +1,4 @@
-# ticketing_app (Ticket App)
+# ticketing_app (Client Ticket App)
 
 A minimal ticketing system built with Flutter and GetX, supporting ticket creation, listing with sorting by priority or age.
 
