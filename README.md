@@ -2,6 +2,10 @@
 
 A minimal ticketing system built with Flutter and GetX, supporting ticket creation, listing with sorting by priority or age.
 
+## DEMO
+- Find the working demo created here: https://client-ticket-app-d3a45.web.app
+
+
 ## Features
 - Create tickets with a description and priority via a bottom-sheet-popup.
 - List tickets with sorting options: Priority or Age.
