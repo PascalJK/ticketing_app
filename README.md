@@ -25,7 +25,7 @@ A minimal ticketing system built with Flutter and GetX, supporting ticket creati
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/PascalJK/ticketing_app>
    cd client-ticket-app
    ```
 
@@ -59,8 +59,8 @@ A minimal ticketing system built with Flutter and GetX, supporting ticket creati
 
 ## Project Structure
 - `lib/main.dart`: Entry point with `MaterialApp` and theme setup.
-- `lib/add_ticket_bottom_sheet.dart`: Bottom sheet for creating tickets.
-- `lib/drop_down_widget.dart`: Dropdown for sorting tickets.
+- `lib/pages/widgets/add_ticket_bottom_sheet.dart.dart`: Bottom sheet for creating tickets.
+- `lib/pages/widgets/drop_down_widget.dart`: Dropdown for sorting tickets.
 - `lib/utils/app_themes.dart`: Custom theme with color scheme.
 - `pubspec.yaml`: Dependencies (flutter, get, shortid, dropdown_button2).
 
